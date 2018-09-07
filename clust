@@ -1,0 +1,7 @@
+#!/bin/bash
+perl stop_test_final11.pl $3
+matlab >&! matlab.out << EOF
+mat ($1,$2)
+exit
+EOF
+perl summary.pl $3

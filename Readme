@@ -1,0 +1,8 @@
+Readme.
+
+To run, type ./clust k comp folder.
+
+k and comp are numbers, k chooses the top k features, and comp chooses the compression ratios.
+Folder name is the name of the directory containing the text files on that topic. Default package enclosed with it is DO651F.
+
+please ensure that matlab is available and Clairlib is installed in the path
